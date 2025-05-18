@@ -1,0 +1,32 @@
+[0m16:52:23.462240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ffdc69190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ffdb236e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ffeafbe60>]}
+
+
+============================== 16:52:23.467991 | 6983b29a-b8d6-49fe-bae5-fa90bbdf847b ==============================
+[0m16:52:23.467991 [info ] [MainThread]: Running with dbt=1.9.4
+[0m16:52:23.468672 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/airflow/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init Spotify_V2', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:52:23.496037 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/airflow/.dbt')}
+[0m16:52:23.496686 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m16:52:23.499299 [debug] [MainThread]: Starter project path: /opt/airflow/dbt_venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m16:52:23.644979 [info ] [MainThread]: 
+Your new dbt project "Spotify_V2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:52:23.645925 [info ] [MainThread]: Setting up your profile.
+[0m16:53:27.357901 [info ] [MainThread]: Profile Spotify_V2 written to /home/airflow/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:53:27.359374 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 63.99523, "process_in_blocks": "3480", "process_kernel_time": 0.082248, "process_mem_max_rss": "119232", "process_out_blocks": "8", "process_user_time": 1.459907}
+[0m16:53:27.359988 [debug] [MainThread]: Command `dbt init` succeeded at 16:53:27.359892 after 64.00 seconds
+[0m16:53:27.360439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ffea8bb30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ffd765580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ffdca7f50>]}
+[0m16:53:27.360913 [debug] [MainThread]: Flushing usage events
+[0m16:53:27.700259 [debug] [MainThread]: An error was encountered while trying to flush usage events
