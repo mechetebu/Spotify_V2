@@ -3,6 +3,9 @@ Spotify_V2:
     dev:
       type: duckdb
       path: dev.duckdb
+      extensions:
+      - httpfs
+      - json
       threads: 1
 
     prod:

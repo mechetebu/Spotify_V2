@@ -1,4 +1,5 @@
-FROM apache/airflow
+FROM apache/airflow:3.0.3
+
 
 RUN python -m venv dbt_venv && source dbt_venv/bin/activate &&\
 pip install --no-cache-dir dbt-duckdb dbt-snowflake && deactivate

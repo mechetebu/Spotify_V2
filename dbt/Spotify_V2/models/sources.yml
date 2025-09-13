@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: Streaming_History_Audio
+      description: "Spotify listening history json files stored in MINIO"
+      meta:
+        external_location: "http://localhost:9001/buckets/raw-spotify-data/"
+        file_format: json
+      tables:
+       - name: Streaming_History_Audio_2018_0
+ 

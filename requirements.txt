@@ -1,3 +1,8 @@
 astronomer-cosmos
 boto3
 load_dotenv
+uv
+ruff
+duckdb
+apache-airflow-providers-amazon
+airflow-provider-duckdb

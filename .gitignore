@@ -11,3 +11,6 @@ airflow.cfg
 airflow.db
 infra
 data
+*.duckdb*
+logs
+dev.duckdb
