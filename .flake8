@@ -1,0 +1,15 @@
+pmax-line-length = 120
+extend-ignore = E203, W503, E711
+exclude = 
+    .git,
+    __pycache__,
+    venv,
+    .venv,
+    migrations,
+    build,
+    dist
+    dbt,
+    tests,
+    .python-version,
+    .gitignore,
+    pyproject.toml

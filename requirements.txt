@@ -6,3 +6,7 @@ ruff
 duckdb
 apache-airflow-providers-amazon
 airflow-provider-duckdb
+flake8
+black
+pytest
+pytest-mock
